@@ -463,6 +463,167 @@
 
 }
 
+@media (max-width: 375px) {
+    /*MENU PRINCIPAL*/
+    .menu__principal__titulo{
+        font-family: 'Squada One', cursive;
+        text-decoration: none;
+        color: black;
+        font-size: 18px; 
+        
+    }
+
+    .menu__principal__titulo img{
+        margin-right: -200px;
+        margin-top: -8px;
+    }
+
+
+    /*CAROUSEL*/
+    .main__carousel__imgs{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    /*DELIVERY*/
+    .main__delivery__img{
+        width: 302px;
+        height: 400px;
+        margin: 20px 10px 0 0;
+    }
+
+    
+    .grilla{
+        display: grid;
+        grid-template-areas: 
+        "imgdelivery"
+        "descripciondelivery1";
+        grid-template-columns: auto;
+        grid-template-rows: auto; 
+    }
+    .main__delivery__img__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Squada One', cursive;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 10px;}
+
+        .main__delivery__img__text--modificado1{
+            font-family: 'Work Sans', sans-serif;
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+
+        .main__delivery__img__text--modificado2{
+            font-family: 'Work Sans', sans-serif;
+            font-size: 16px;
+        }
+        .main__pedidos__titulo{
+            font-family: 'Squada One', cursive;
+            font-size: 30px;
+            margin: 20px;
+            text-align: center;
+        }
+        .main__pedidos__imgs{
+            display: flex;
+            flex-direction: column;
+           
+        }
+        .main__pedidos__imgs a img{
+            margin-left:  20px;
+           
+        }
+
+        /*NUESTRO LOCAL*/
+        .ourlocal{
+            display: flex;
+            align-items: center;
+        }
+        
+        .img__ourlocal{
+            width: 300px;
+            height: 300px;
+            
+        }
+        
+        .main__ourlocal__img__text{
+                flex-direction: column;
+                justify-content: center;
+                font-family: 'Squada One', cursive;
+                font-size: 45px;
+               margin-bottom: 0px;
+               
+              
+        }
+        
+        .main__ourlocal__img__text--modificado{
+            font-family: 'Work Sans', sans-serif;
+                    font-size: 20px;
+                    margin-top: 0px;
+                
+        }
+        .grilla2{
+            display: grid;
+            grid-template-areas: 
+            "descripcionlocal1"
+            "imglocal"
+            "descripcionlocal2";
+            grid-template-columns: auto;
+            grid-template-rows: auto; 
+        }
+
+        /*MENU BURGERS*/
+        .menu__burgers__titulo__fotos1{
+            display: flex;
+            flex-direction: column;
+        }
+        .menu__burgers__titulo__fotos1 img{
+            width: 300px;
+            height: 500px;
+            margin-left: 0;
+            margin-top:10px;
+        }
+        
+        .menu__burgers__titulo__fotos2{
+            display: flex;
+            flex-direction: column;
+        }
+        .menu__burgers__titulo__fotos2 img{
+            width: 300px;
+            height: 450px;
+            margin-left: 2px;
+            margin-top: 10px;
+            
+            
+        }
+        /*CONTACTO*/
+        .main__contacto{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        .main__contacto__img img{
+            width: 230px;
+            height: 250px;
+            border-radius: 750px;
+            margin-left: 16px;
+            
+        }
+        
+        .main__contacto h2{
+            font-family: 'Squada One', cursive;
+            font-size: 50px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            text-align: center;
+        
+        }
+
+}
+
 
     
 
