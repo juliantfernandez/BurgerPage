@@ -487,9 +487,9 @@
     }
     /*DELIVERY*/
     .main__delivery__img{
-        width: 302px;
-        height: 400px;
-        margin: 20px 10px 0 0;
+        width: 300px;
+        height: 480px;
+        
     }
 
     
@@ -506,19 +506,19 @@
         flex-direction: column;
         justify-content: center;
         font-family: 'Squada One', cursive;
-        font-size: 35px;
+        font-size: 45px;
         text-align: center;
         margin-top: 10px;}
 
         .main__delivery__img__text--modificado1{
             font-family: 'Work Sans', sans-serif;
-            font-size: 15px;
+            font-size: 25px;
             margin-bottom: 0px;
         }
 
         .main__delivery__img__text--modificado2{
             font-family: 'Work Sans', sans-serif;
-            font-size: 16px;
+            font-size: 20px;
         }
         .main__pedidos__titulo{
             font-family: 'Squada One', cursive;
@@ -532,7 +532,7 @@
            
         }
         .main__pedidos__imgs a img{
-            margin-left:  20px;
+            margin-left:  60px;
            
         }
 
@@ -543,8 +543,8 @@
         }
         
         .img__ourlocal{
-            width: 300px;
-            height: 300px;
+            width: 375px;
+            height: 250px;
             
         }
         
@@ -582,7 +582,7 @@
         .menu__burgers__titulo__fotos1 img{
             width: 300px;
             height: 500px;
-            margin-left: 0;
+            margin-left: 30px;
             margin-top:10px;
         }
         
@@ -593,7 +593,7 @@
         .menu__burgers__titulo__fotos2 img{
             width: 300px;
             height: 450px;
-            margin-left: 2px;
+            margin-left: 30px;
             margin-top: 10px;
             
             
@@ -609,7 +609,7 @@
             width: 230px;
             height: 250px;
             border-radius: 750px;
-            margin-left: 16px;
+            margin: left 10px;
             
         }
         
